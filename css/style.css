@@ -256,10 +256,10 @@ a.pinterest .front {
 	padding:4em 0;
 }
 h3.heading {
+    font-family: 'Rubik', sans-serif;
     text-align: center;
     font-size: 40px;
-    color: #7d3f98;
-    border-bottom: 1px dotted #7d3f98;
+    color: #050d2b;
     width: 19%;
     margin: 0 auto 1em;
     text-transform: uppercase;
