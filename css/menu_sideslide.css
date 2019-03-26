@@ -1,5 +1,5 @@
 .menu-wrap a {
-	color: #EEE048;
+	color: whitesmoke;
 }
 
 .menu-wrap a:hover, .menu-wrap a:focus {
@@ -32,7 +32,7 @@
 	right: 0.5em;
 	bottom: 0.5em;
 	left: 0.5em;
-	background: linear-gradient(#146eb4 20%, transparent 20%, transparent 40%, #146eb4 40%, #146eb4 60%, transparent 60%, transparent 80%, #146eb4 80%);
+	background: linear-gradient(grey 20%, transparent 20%, transparent 40%, grey 40%, grey 60%, transparent 60%, transparent 80%, grey 80%);
 	content: '';
 }
 
@@ -79,10 +79,11 @@
 .menu-wrap {
 	position: fixed;
 	z-index: 1001;
-	width: 300px;
+	width: 230px;
 	height: 100%;
-	background: #272727;
-    background: #0d6bb5;
+	background: #bdc3c7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	padding: 2.5em 1.5em 0;
 	font-size: 1.15em;
 	-webkit-transform: translate3d(-320px,0,0);
