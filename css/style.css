@@ -2,7 +2,11 @@ html, body{
     font-size: 100%;
 	font-family: 'Open Sans', sans-serif;
 	background:#ffffff;
-	margin: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 p,ul li,ol li{
 	margin:0;
@@ -253,6 +257,7 @@ a.pinterest .front {
 
 /* About */
 .about{
+
 	padding:4em 0;
 }
 h3.heading {
@@ -280,6 +285,7 @@ h3.heading {
 }
 /*-- clients--*/
 .clients{
+
     padding: 1em 2em;
 }
 .clients h3{
@@ -374,6 +380,7 @@ ul.hireme {
 
 /*-- Skills --*/
 .education,.skills,.experience ,.contact,.about,.gallery,.count-agileits{
+    margin: 0;
     padding: 4em 0;
 }
 .about {
